@@ -303,7 +303,7 @@ This module automates evaluation of the chatbot's factual correctness, relevance
 
 ## Data Structures
 
-### Cleaned Text CSV
+### Cleaned Video Transcripts CSV
 
 | video_id   | chunk_number | Processed_Text_chunk |
 |------------|--------------|----------------------|
@@ -321,30 +321,6 @@ This module automates evaluation of the chatbot's factual correctness, relevance
 
 ---
 
-## Highlights & Best Practices
-
-```card
-{
-    "title": "Chunk-Based Retrieval",
-    "content": "Splitting text into ~400-token chunks enables efficient semantic search and retrieval in the vector database."
-}
-```
-
-```card
-{
-    "title": "Strict Tool Output Policy",
-    "content": "LangChain agent enforces verbatim output from the RAG tool, ensuring all context and details reach the user."
-}
-```
-
-```card
-{
-    "title": "Evaluation Automation",
-    "content": "Automated metrics and LangSmith tracing make performance tracking and improvement systematic and reproducible."
-}
-```
-
----
 
 ## System Overview
 
@@ -365,7 +341,3 @@ The project combines modern data ingestion, processing, and retrieval with advan
 This documentation should enable any developer or technical stakeholder to understand, extend, and operate the chatbot project efficiently.
 
 ----
-
-<h2> Team Members </h2>
-<li> Cristina Insignares </li>
-<li> Iswarya Malayamaan </li>
